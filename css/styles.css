@@ -1,0 +1,35 @@
+@media (max-width: 500px) {
+    .img-container {
+        display: block;
+    }
+    img {
+        border: 2px solid grey;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 850px) {
+    .img-container {
+        display: block;
+    }
+   
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+    .img-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+}
+@media (min-width: 1201px) {
+    .img-container {
+        display: flex;
+        flex-wrap: wrap;
+        display: block;
+    }
+    img {
+        border: 2px solid grey;
+    }
+   
+}
