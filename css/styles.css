@@ -26,10 +26,13 @@
     .img-container {
         display: flex;
         flex-wrap: wrap;
-        display: block;
     }
     img {
         border: 2px solid grey;
     }
+    picture {
+        width: 33%;
+    }
+
    
 }
